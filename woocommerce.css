@@ -1,0 +1,221 @@
+/* Start Custom CSS */
+tr.cart-subtotal {
+    font-weight: 700;
+}
+tr.cart-subtotal td {
+    font-size: 18px;
+    color: #dd2222;
+    float: right;
+}
+tr.woocommerce-shipping-totals.shipping td {
+    float: right;
+}
+
+a.shipping-calculator-button {
+    color: #dd2222;
+    font-weight: 700;
+}
+
+p.woocommerce-shipping-destination strong {
+    color: #dd2222;
+}
+
+tr.order-total td {
+    color: #dd2222;
+    float: right;
+}
+
+
+
+/* End Custom CSS */
+
+/*
+Theme Name: Ogani Woocommerce Theme
+
+WooCommerce styles override
+*/
+
+/* Start WP10MS CSS */
+
+/* Shop Page Desing */
+
+/* a:hover, a:focus, a:active {
+    color: #7fad39 !important;
+} */
+
+.nice-select.open, .woocommerce-breadcrumb {
+    display: none;
+}
+
+.nice-select.orderby .current {
+    font-weight: 700;
+}
+
+ins {
+    text-decoration: none;
+}
+
+.product__discount__item__text h4 {
+    display: flex;
+	flex-direction: row-reverse;
+    justify-content: center;
+}
+
+ins .woocommerce-Price-amount.amount bdi {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c1c1c;
+	padding-right: 5px;
+}
+
+del .woocommerce-Price-amount bdi{
+	display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1c1c1c;
+	opacity: .5;
+}
+
+span.woocommerce-Price-currencySymbol {
+    margin: 0 2px;
+}
+
+a.added_to_cart.wc-forward {
+    line-height: 1;
+    font-size: 12px !important;
+    color: #000 !important;
+    position: absolute;
+    top: 0;
+    content: "";
+}
+a.added_to_cart.wc-forward:hover {
+    color: #fff !important;
+}
+
+/* Single Product Page Desing */
+/* .woocommerce-breadcrumb {
+	display: none;
+  } */
+.woocommerce-product-gallery {
+	width: 100% !important;
+}
+
+.flex-control-thumbs{
+	padding-top: 20px !important;
+	width: 100%;
+    height: 150px;
+}
+
+.flex-control-thumbs li{
+	padding: 0 5px;
+}
+
+.product__details__text {
+	width: 100% !important;
+}
+
+/* Product Tab */
+.product__details__tab .nav-tabs:before {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    height: 1px;
+    width: 20%;
+    background: #ebebeb;
+    content: "";
+}
+
+.product__details__tab .nav-tabs:after {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    height: 1px;
+    width: 20%;
+    background: #ebebeb;
+    content: "";
+}
+
+.product__details__tab .product__details__tab__desc {
+    padding-top: 44px !important;
+}
+
+.product__details__tab .product__details__tab__desc h2 {
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 26px;
+	font-size: 16px;
+}
+
+.nav-item.active a{
+    color: #495057 !important;
+}
+
+/* .woocommerce p.stars.selected a:not(.active)::before {
+    content: "\e020";
+} */
+
+
+/* Cart Page */
+
+.woocommerce table.shop_table {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.shoping__cart__table table tbody tr td {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid #ebebeb !important;
+}
+
+.woocommerce-cart table.cart img{
+    width: 100px !important;
+}
+
+td.product-name a {
+    font-size: 18px;
+    transition: .3s;
+    color: #1c1c1c;
+}
+
+td.product-name a:hover{
+    color: #7fad39;
+}
+
+/* input#coupon_code {
+    width: 100px;
+} */
+
+/* Checkout Page */
+.woocommerce-billing-fields h4, .woocommerce-additional-fields h3, h3#order_review_heading {
+    color: #1c1c1c;
+    font-weight: 700;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.woocommerce-billing-fields__field-wrapper p label, a.showcoupon {
+    color: #1c1c1c;
+    transition: .3s;
+}
+
+.woocommerce-billing-fields__field-wrapper p span.woocommerce-input-wrapper, p#billing_country_field, p#billing_state_field, p#order_comments_field {
+    display: contents;
+}
+
+.woocommerce-input-wrapper .input-text {    
+    height: 46px;
+    border: 1px solid #ebebeb;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #b2b2b2 !important;
+    border-radius: 4px;
+}
+
+.nice-select.country_to_state.country_select, .nice-select.state_select {
+    width: 100%;
+}
+
+/* End WP10MS CSS */
